@@ -1,0 +1,278 @@
+body{
+    background-color: darkslategray;
+
+}
+#content{
+    margin:0 auto;
+    background-color: white;
+    width: 980px;
+    height: 1386px;
+    text-align: center;
+}
+/*页面顶端页眉*/
+#top{
+    margin-left: 44px;
+    font-size: 12px;
+    font-family: "Adobe 黑体 Std R", serif;
+    width: 892px;
+    padding-bottom: 61px;
+    border-bottom: 2px solid #938e8c;
+}
+#website{
+    float: left;
+    position:relative;
+    left: 0;
+    width: 110px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 48px;
+    background-color: #d4545c;
+    color: white;
+}
+#data{
+    position: relative;
+    float: right;
+    right:0;
+    padding-top: 48px;
+    color: #d4545c;
+}
+/*正文第一部分*/
+#introduce{
+    margin-top: 5px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+#img1 img{
+    float: left;
+    position:absolute;
+    left: 0;
+    margin-left:230px;
+}
+#shadow1{
+     width: 191px;
+     height: 301px;
+     background-color: seagreen;
+     opacity: 0.4;
+     margin-left: 230px;
+     float: left;
+     left:0;
+     position: absolute;
+ }
+#shadow2{
+    width: 191px;
+    height: 301px;
+    background-color: lightcoral;
+    opacity: 0.4;
+    margin-left: 450px;
+    margin-right: 294px;
+    float: right;
+    position:relative;
+}
+/*第一部分右边*/
+#introduceMassage{
+    border-top: 2px solid #cc8091;
+    width: 203px;
+    float: right;
+    position: absolute;
+    margin-right: 230px;
+    right:0;
+    text-align: left;
+}
+#introduceMassage>p{
+    font-size: 24px;
+    text-decoration-line: underline;
+    font-variant:small-caps;
+    line-height: 24px;
+  }
+#massage2{
+    font-size: 12px;
+    color: #676767;
+    font-family: "Adobe 楷体 Std R",serif;
+    line-height: 10px;
+
+}
+#massage3{
+    font-size: 116px;
+    color: #75b86b;
+    font-family: Arial, serif;
+    font-style:italic;
+}
+#massage4{
+    font-size: 55px;
+    color: #cc8091;
+    font-family: Arial, serif;
+    float: left;
+    left: 0;
+    position: absolute;
+}
+#massage56{
+    margin-top: 13px;
+    font-family: Arial, serif;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+#massage5{
+    color: #cc8091;
+    font-size: 21px;
+}
+#massage6{
+    color: darkgrey;
+    font-size: 12px;
+}
+/*font-variant:small-caps;除了首字母以外的都变小*/
+/*text-transform: capitalize;/*首字母大写*/
+
+/*正文第二部分*/
+#word{
+    width: 641px;
+    margin-top: 40px;
+    margin-left: 44px;
+    padding-bottom: 20px;
+}
+#What{
+    width: 200px;
+    float:left;
+    padding-top: 5px;
+    margin-right: 26px;
+}
+#What h2{
+    color: #418c59;
+    text-decoration: underline;
+    font-weight:bold;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+#What p{
+    font-family: "Adobe 宋体 Std L", serif;
+    color: #767777;
+    width: 200px;
+    height:auto;
+    text-align: left;
+}
+#When{
+    width: 200px;
+    margin:0 auto;
+}
+#When h2{
+    color: #cc7680;
+    text-decoration: underline;
+    font-weight:bold;
+    padding-top: 20px;
+}
+#When p{
+    font-family: Arial,serif;
+    color: #231815;
+    width: 200px;
+    height:auto;
+    text-align: left;
+}
+#How{
+    float:right;
+    right:0;
+    width: 200px;
+}
+#How h2{
+    color: #d2994f;
+    text-decoration: underline;
+    font-weight:bold;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+#How p{
+    font-family: Arial,serif;
+    color: #231815;
+    width: 200px;
+    height:auto;
+    text-align: left;
+}
+#percent{
+    font-family: Arial,serif;
+    color: #231815;
+    width: 200px;
+    height:auto;
+    text-align: left;
+}
+#How span{
+    font-family: Arial,serif;
+    color: #cd4a48;
+    width: 200px;
+    height:auto;
+    font-style: italic;
+    opacity: 0.7;
+    line-height: 16px;
+}
+/*最后一部分*/
+#front{
+    margin-left: 41px;
+    margin-right: 41px;
+    margin-top: 20px;
+}
+/*最后一部分左边*/
+#frontLeft{
+    width: 415px;
+    float: left;
+}
+#frontLeftTitle{
+    border-bottom:2px solid #11456b;
+}
+#frontLeftTitle span{
+
+}
+#frontLeftMassage:first-letter{
+    float: left;
+    font-size: 3em;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
+/*最后一部分右边*/
+#frontRight{
+    width: 458px;
+    float: right;
+}
+#frontRightPicture{
+    width: 458px;
+    height: 275px;
+
+}
+#frontRightPicture img{
+    width: 458px;
+    height: 275px;
+    position: absolute;
+    right:225px;
+
+}
+#shadow{
+    margin-top:214px;
+    width: 458px;
+    height: 61px;
+    background-color: seagreen;
+    opacity: 0.4;
+    position: absolute;
+}
+#frontRightMassage1{
+    font-size: 26px;
+    color: #ffffff;
+    font-family: Arial, serif;
+    border-left: 3px solid#72b16a;
+    height: 44px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
