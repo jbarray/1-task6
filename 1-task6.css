@@ -126,14 +126,15 @@ body{
 /*正文第二部分*/
 #word{
     width: 641px;
-    margin-top: 40px;
     margin-left: 44px;
     padding-bottom: 20px;
+    overflow: hidden;
+    display:-webkit-flex;
+    justify-content: space-around;
 }
 #What{
     width: 200px;
     float:left;
-    padding-top: 5px;
     margin-right: 26px;
 }
 #What h2{
@@ -152,15 +153,15 @@ body{
 }
 #When{
     width: 200px;
-    margin:0 auto;
+    margin-right: 26px;
 }
 #When h2{
     color: #cc7680;
     text-decoration: underline;
     font-weight:bold;
-    padding-top: 20px;
 }
 #When p{
+    padding-top: 16px;
     font-family: Arial,serif;
     color: #231815;
     width: 200px;
@@ -207,11 +208,12 @@ body{
     margin-left: 41px;
     margin-right: 41px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 /*最后一部分左边*/
 #frontLeft{
     width: 415px;
-    float: left;
 }
 #frontLeftTitle{
     border-bottom:2px solid #11456b;
@@ -228,27 +230,26 @@ body{
 /*最后一部分右边*/
 #frontRight{
     width: 458px;
-    float: right;
 }
 #frontRightPicture{
     width: 458px;
     height: 275px;
-
+    vertical-align: bottom;
 }
 #frontRightPicture img{
     width: 458px;
     height: 275px;
-    position: absolute;
     right:225px;
-
+    vertical-align: bottom;
 }
 #shadow{
-    margin-top:214px;
     width: 458px;
     height: 61px;
     background-color: seagreen;
-    opacity: 0.4;
+    opacity: 0.5;
     position: absolute;
+    vertical-align: bottom;
+    margin-top: -61px;
 }
 #frontRightMassage1{
     font-size: 26px;
